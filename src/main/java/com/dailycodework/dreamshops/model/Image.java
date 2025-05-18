@@ -25,6 +25,7 @@ public class Image {
     private String fileType;
 
     @Lob
+    @JsonIgnore
     private Blob image;
     private String downloadUrl;
 
